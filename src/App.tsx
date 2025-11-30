@@ -1,9 +1,10 @@
 import './index.css'
+import Todo from './todo'
 
 function App() {
 
   return (
-    <div>todo</div>
+    <Todo />
   )
 }
 
