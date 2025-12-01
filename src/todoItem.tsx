@@ -32,6 +32,7 @@ function TodoItem({ item, deleteTodo, editTodo }: TodoItemProps) {
                     :
                     <div>
                         <input
+                            className="border-[2.5px]"
                             type="tex"
                             value={newTitle}
                             onChange={newtext}

@@ -27,7 +27,7 @@ function CreateTodo({ onCreateTodo }: CreateTodoProps) {
         <div className="flex gap-2 mt-3.5 max-w-[300px] mx-auto">
             <input
                 type="text"
-                className="w-[250px] py-2 px-3.5"
+                className="w-[250px] py-2 px-3.5 border-[2.5px] border-cyan-300 text-purple-600"
                 value={text}
                 onChange={handleChange}
             />
